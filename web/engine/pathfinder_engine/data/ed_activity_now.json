@@ -1,0 +1,20 @@
+{
+  "source": "WA Health, Emergency department live activity (public web page)",
+  "url": "https://www.health.wa.gov.au/reports-and-publications/emergency-department-activity/data?report=ed_activity_now",
+  "taken_text": "Sunday, 20 September 2026 11:15 PM",
+  "taken_at": "2026-09-20T23:15:00+08:00",
+  "minute_of_week": 10035,
+  "note": "Public data, not hackathon Data. The page says the figures serve as a guide only; the average waiting time is for triage category 4, the most common category.",
+  "hospitals": [
+    {"name": "Armadale Hospital", "short": "Armadale", "t4_avg_wait_min": 148, "waiting": 31, "in_ed": 68},
+    {"name": "Fiona Stanley Hospital", "short": "Fiona Stanley", "t4_avg_wait_min": 134, "waiting": 45, "in_ed": 126},
+    {"name": "Joondalup Health Campus", "short": "Joondalup", "t4_avg_wait_min": 95, "waiting": 31, "in_ed": 94},
+    {"name": "King Edward Memorial Hospital For Women", "short": "King Edward", "t4_avg_wait_min": 0, "waiting": 0, "in_ed": 5},
+    {"name": "Peel Health Campus", "short": "Peel", "t4_avg_wait_min": 94, "waiting": 7, "in_ed": 44},
+    {"name": "Perth Children's Hospital", "short": "Perth Children's", "t4_avg_wait_min": 91, "waiting": 17, "in_ed": 43},
+    {"name": "Rockingham General Hospital", "short": "Rockingham", "t4_avg_wait_min": 123, "waiting": 10, "in_ed": 50},
+    {"name": "Royal Perth Hospital", "short": "Royal Perth", "t4_avg_wait_min": 201, "waiting": 20, "in_ed": 80},
+    {"name": "Sir Charles Gairdner Hospital", "short": "Sir Charles Gairdner", "t4_avg_wait_min": 159, "waiting": 23, "in_ed": 62},
+    {"name": "St John of God Midland Public Hospital", "short": "Midland", "t4_avg_wait_min": 200, "waiting": 22, "in_ed": 86}
+  ]
+}
