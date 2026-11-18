@@ -1,0 +1,25 @@
+Pathfinder
+Copyright 2026 Eugenia Wulff Fuentes, Ilya Sapelkin and Nelson Betancourt
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+It is a prototype for demonstration. It is not a medical device and is not
+intended for clinical use.
+
+Not covered by the licence
+--------------------------
+Names and marks of third parties mentioned in this repository belong to their
+owners. The hospital names and figures in
+web/engine/pathfinder_engine/data/ed_activity_now.json are a snapshot of WA
+Health's public "Emergency department live activity" page; WA Health states
+that those figures serve as a guide only.
+
+Third-party material
+--------------------
+The built website includes the Pyodide runtime (https://pyodide.org), licensed
+under the Mozilla Public License 2.0, copied from the pyodide npm package at
+build time. Other dependencies are installed from npm under their own licences
+and are not included in this repository.
+
+The narration of the film in media/ was synthesised with Kokoro-82M
+(https://huggingface.co/hexgrad/Kokoro-82M), licensed under the Apache License,
+Version 2.0. The model itself is not included.
