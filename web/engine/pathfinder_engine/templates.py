@@ -1,6 +1,6 @@
 """Triage-note templates for typing when dictation is off (the static build): ten invented patients, five aged 65+ and
-five mental health, each written the way a different nurse would say it, plus the elbow case of
-the case film as a nurse would say it at triage. Each carries what the parser and the triage rules
+five mental health, each written the way a different nurse would say it, plus one real
+visit, an elbow injury, as a nurse would say it at triage. Each carries what the parser and the triage rules
 give for it, checked by tests/test_templates.py. Names are invented and are none of the demo's records, so the
 "known record" lookup does not fire. Standard library only.
 """
@@ -79,7 +79,7 @@ TEMPLATES: list[Template] = [
              "repeat script, says her mood is stable, calm, sleeping well, willing to wait, came by train. Pulse "
              "seventy eight, blood pressure one twenty over eighty, sats ninety nine percent.",
              "script", 5),
-    # The elbow case from the case film (media/pathfinder_case_elbow.mp4), as a nurse would say it
+    # The elbow case, as a nurse would say it
     Template("case-elbow", "Elbow injury, international student (case file)", "other", "narrative",
              "Adult international student. Fell onto the elbow, isolated elbow injury, swollen and sore to move, no "
              "other pain or injury, walked in. Asked for paracetamol. No known allergies.",

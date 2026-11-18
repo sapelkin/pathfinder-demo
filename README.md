@@ -15,7 +15,7 @@
 <p align="center">
   <a href="https://sapelkin.github.io/pathfinder-demo/"><img alt="Try it: in the browser" src="https://img.shields.io/badge/Try%20it-in%20the%20browser-005B38?style=flat"></a>
   <a href="https://wadsih.org.au/2026-wadsih-health-hackathon/"><img alt="2026 WADSIH Health Hackathon: honourable mention" src="https://img.shields.io/badge/2026%20WADSIH%20Health%20Hackathon-Honourable%20mention-C9A227?style=flat"></a>
-  <a href="#the-films"><img alt="Films: three" src="https://img.shields.io/badge/Films-three-2A78D6?style=flat"></a>
+  <a href="#the-film"><img alt="Film: 104 s" src="https://img.shields.io/badge/Film-104%20s-2A78D6?style=flat"></a>
   <a href="LICENSE"><img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache%202.0-D22128?style=flat"></a>
   <br>
   <a href="#limits"><img alt="Status: prototype, simulated data" src="https://img.shields.io/badge/Status-prototype%2C%20simulated%20data-E4A11B?style=flat"></a>
@@ -54,30 +54,16 @@ a phone. The first load takes a few seconds while the Python engine starts in th
 Your demo state stays in your browser (Settings → Your data to export, import or reset). There is no server and no
 telemetry.
 
-## The films
+## The film
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <a href="https://sapelkin.github.io/pathfinder-demo/media/pathfinder_web_final_green.mp4"><img src="docs/images/poster_film.jpg" alt="Pathfinder, the film"></a>
-      <b>The film</b>, 104 s. A simulated Saturday afternoon in nine steps, from the nurse's first words to the right door
-      for next time, with the models drawn as they run.
-      <a href="media/pathfinder_web_final_green.mp4">File</a>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://sapelkin.github.io/pathfinder-demo/media/pathfinder_case_elbow.mp4"><img src="docs/images/poster_case.jpg" alt="One real visit, the case film"></a>
-      <b>One real visit</b>, 80 s. Seven hours in an ED with an injured elbow, told from the patient's own notes, and
-      what the front door could have done at each gap.
-      <a href="media/pathfinder_case_elbow.mp4">File</a>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://sapelkin.github.io/pathfinder-demo/media/pathfinder_live_demo.mp4"><img src="docs/images/poster_live_demo.jpg" alt="The live demo, a screen recording"></a>
-      <b>The live demo</b>, 3 min 28 s, no sound. The website at Fiona Stanley Hospital, every feature highlighted as it
-      is used.
-      <a href="media/pathfinder_live_demo.mp4">File</a>
-    </td>
-  </tr>
-</table>
+A simulated Saturday afternoon in 104 seconds and nine steps: from the nurse's first words to the right door for next
+time, with the models drawn as they run.
+
+<p align="center">
+  <a href="https://sapelkin.github.io/pathfinder-demo/media/pathfinder_web_final_green.mp4"><img src="docs/images/poster_film.jpg" alt="Pathfinder, the film" width="820"></a>
+</p>
+
+[Play in the browser](https://sapelkin.github.io/pathfinder-demo/media/pathfinder_web_final_green.mp4) · [The file](media/pathfinder_web_final_green.mp4)
 
 ## The problem
 
@@ -180,11 +166,11 @@ put a shared department behind sign-in.
 │   │   └── tools/             the seed builder, the calibration, the snapshot fetcher
 │   └── app/                   the website (React, TypeScript, Fluent UI, Vite)
 │       ├── src/               screens, components, the engine worker
-│       └── scripts/           build steps: Pyodide and the engine wheel, the films
-├── media/                     the three films
+│       └── scripts/           build steps: Pyodide and the engine wheel, the videos
+├── media/                     the film, and the screen recording the site plays from its clock menu
 ├── docs/
 │   ├── PUBLIC_FIGURES.md      every figure in the seed, published or assumed, with its source
-│   └── images/                the banner and the film posters
+│   └── images/                the banner and the film poster
 └── .github/workflows/         build and deploy to GitHub Pages
 ```
 
@@ -213,7 +199,7 @@ put a shared department behind sign-in.
 - WA Health's [Emergency department live activity](https://www.health.wa.gov.au/reports-and-publications/emergency-department-activity/data?report=ed_activity_now)
   page, the source of Metro mode's snapshot.
 - [Pyodide](https://pyodide.org), which runs the engine in the browser.
-- The films are narrated with Kokoro-82M (Apache 2.0), run locally.
+- The film is narrated with Kokoro-82M (Apache 2.0), run locally.
 
 ## Licence
 
